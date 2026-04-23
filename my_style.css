@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(217, 219, 248);
+    padding: 15px;
+    margin: 0%;
+}
+.intro-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+.dp, .intro{
+    width: 100%;
+}
+#profile-pic{
+    border-radius: 50%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.name{
+    display: flexbox;
+    width: 100%;
+}
+
+.details-left{
+    width: 150px;
+}
+.details-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 18px;
+}
+.details, .experience, .education{
+display: flexbox;
+width: 100%;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.location, .email, .phone{
+    font-size: 18px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.education-list > li> h4,
+.education-list > li > p,
+.experience-list > li> h4,
+.experience-list > li> p{
+    padding-bottom: 3px;
+    margin: 0%;
+}
+
+.headings{
+    color: rgb(0, 0, 128);
+    text-decoration: underline;
+}
