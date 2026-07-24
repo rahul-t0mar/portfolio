@@ -1,0 +1,11 @@
+.skill {
+  transition: opacity 300ms ease-in-out;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}

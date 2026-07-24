@@ -1,0 +1,17 @@
+.connect_icons{
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.connect_icons .icon{
+    font-size: 2rem;
+    background-color: rgb(99, 14, 113);
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+}
+.connect_icons .icon:hover {
+    box-shadow: 0 0 15px rgba(239, 162, 255, 0.8);
+}

@@ -1,0 +1,19 @@
+.skill_icons{
+    height: 20px;
+    margin-right: 8px;
+}
+
+.skill_btn{
+    border: rgb(239, 162, 255) 1px solid;
+    border-radius: 28px;
+    background-color: rgb(63, 1, 76);
+    transition: 
+    transform 300ms ease-in-out,
+    box-shadow 100ms ease-in 300ms;
+
+}
+
+.skill_btn:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 0 1.5px rgb(239, 162, 255);
+}

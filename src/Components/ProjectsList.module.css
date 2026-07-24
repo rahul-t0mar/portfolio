@@ -1,0 +1,101 @@
+.laptopWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10; /* adjust to your laptop image */
+}
+
+.project_bg,
+.project_preview {
+  position: absolute;
+  inset: 0;
+}
+
+.project_bg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project_preview {
+  top: 10%;
+  left: 11%;
+  width: 78%;
+  height: 78%;
+  object-fit: cover;
+}
+
+.projects_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.project_card {
+  width: 320px;      /* Try 300px-320px */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.project_button {
+  margin-top: auto;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+.projects_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project_card {
+  flex: 0 0 calc((100% - 80px) / 3);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid rgb(144, 65, 144);
+  border-radius: 10px;
+  box-sizing: border-box;
+   transition: 
+    transform 300ms ease-in-out,
+    box-shadow 100ms ease-in 300ms;
+}
+
+.project_button {
+  margin-top: auto;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.project_card:hover {
+   transform: scale(1.01);
+    box-shadow: 0 0 0 1.5px rgb(239, 162, 255);
+}
+
+.project_button button {
+  background-color: rgb(47, 2, 56);
+  border: rgb(144, 65, 144) 1px solid;
+  border-radius: 15px;
+  font-size: 18px;
+  margin-top: 5px;
+ transition: 
+    transform 300ms ease-in-out,
+    box-shadow 100ms ease-in 300ms;
+}
+
+.project_button button:hover{
+      transform: scale(1.01);
+    box-shadow: 0 0 0 1.5px rgb(239, 162, 255);
+}
+
+
+

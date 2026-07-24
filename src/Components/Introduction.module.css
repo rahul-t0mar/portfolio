@@ -1,0 +1,27 @@
+.details{
+    font-family: "Barlow", sans-serif;
+    width:75%;
+}
+
+.details h1{
+    font-weight: 600;
+}
+
+span{
+    color:rgb(239, 162, 255);
+}
+
+.intro_det{
+    word-spacing: 1rem;
+    line-height: 1.5;
+}
+
+
+h1,p{
+    word-spacing: 0.6rem;
+}
+
+.profile_icon img{
+height: 505px;
+border-radius: 12px;
+}

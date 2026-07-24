@@ -1,0 +1,71 @@
+/* hover color =   color: rgb(239, 162, 255);*/
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0%;
+  font-family: inherit;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  z-index: 1000;
+}
+
+.scrolled {
+  background: rgba(31, 2, 36, 0.85);
+  backdrop-filter: blur(10px);
+  
+}
+
+.name {
+  font-size: 2rem;
+  color: rgb(239, 162, 255);
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.name:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  gap: 3rem;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.list_items a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+}
+.list_items:hover{
+    color: rgb(239, 162, 255);
+    cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: none;
+  padding: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-family: inherit;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+.icons{
+    background-color: none;
+    margin-right: 9px;
+}
