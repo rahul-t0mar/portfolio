@@ -80,7 +80,7 @@ npm start
 **Rahul Tomar**
 
 - Email: rahultomarjobs6296@gmail.com
-<!-- - LinkedIn: https://linkedin.com/in/yourprofile -->
+- LinkedIn: https://www.linkedin.com/in/rahul-t0mar-dzire045
 - GitHub: https://github.com/rahul-t0mar
 
 ## 📄 License
