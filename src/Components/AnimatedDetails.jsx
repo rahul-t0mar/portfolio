@@ -6,6 +6,7 @@ const skills = [
   "Open Source Contributor",
   "MERN Stack Developer",
   "Freelancer",
+  "Full Stack Developer"
 ];
 
 function AnimatedDetails() {
