@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌟 My Portfolio
 
 Welcome to my personal portfolio! This project showcases my skills, projects, experience, and contact information.
